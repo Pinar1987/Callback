@@ -30,8 +30,8 @@ function displayHobbies(callback) {
 }
 
 
-PrintName(() => {
-    PrintAge(() => {
+displayName(() => {
+    displayAgeAge(() => {
         displayLocation(() => {
             displayHobbies(() => {
                 console.log("That's all about me! Thanks for reading.");
